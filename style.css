@@ -1,0 +1,130 @@
+/***** Everything *****/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/***** Main container *****/
+#container {
+    width: 700px;
+    margin: auto;
+    border-left: 1px solid #5E747F;
+    border-right: 1px solid #5E747F;
+    /* padding: 0px 20px; */
+    /* background-color: #D2D0BA; */
+}
+
+.addMarginLR{
+    margin: 0px 20px;
+}
+
+/***** Header section *****/
+header {
+    color: #5E747F;
+}
+
+/***** Navigation bar *****/
+nav {
+    background-color: rgb(255, 245, 238);
+    /* padding: 1px 0; */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 40px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* Before click */
+nav a:link {
+    color: #000;
+}
+
+/* After click */
+nav a:visited {
+    color: #818db3;
+}
+
+/* Mouse over */
+nav a:hover {
+    color: #333;
+}
+
+/* Mouse on-click */
+nav a:active {
+    color: #753a30;
+}
+
+/***** Main image on each page *****/
+#main_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/***** List of available animals *****/
+#adoptlist {
+    padding: 0;
+}
+
+#adoptlist li {
+    display: block;
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+#adoptlist li p{
+    display: inline;
+}
+
+/***** Adoption fee section *****/
+#fee_section {
+    border-top: 1px dotted black;
+}
+
+/* Fee table */
+#fee_section table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+/* Fee table th */
+#fee_section table th {
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* Fee table td */
+#fee_section table td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+/****** Footer section ******/
+#footer {
+    border-top: 1px dotted black;
+    margin-top: 40px;
+}
+
+/* Contact form */
+form{
+    margin-top: 20px;
+}
+
+form div{
+    padding: 5px 0;
+}
