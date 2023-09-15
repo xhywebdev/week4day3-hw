@@ -29,18 +29,8 @@
                 <fieldset>
                     <legend>User Personal Information</legend>
                     <div>
-                        <label>Full Name</label>
+                        <label>Full Name</label> <br>
                         <input type="text" name="full_name">
-                    </div>
-
-                    <div>
-                        <label>Email Address</label>
-                        <input type="email" name="email">
-                    </div>
-
-                    <div>
-                        <label>Phone Number</label>
-                        <input type="text" name="phone">
                     </div>
 
                     <div>
@@ -53,11 +43,12 @@
                     <div>
                         <label>How should we contact you?</label>
 
-                        <select name="contact_method">
+                        <select name="contact_method" id="contactMethod">
+                            <option value="none">Select an option</option>
                             <option value="email">Email</option>
-                            <option value="phonee">Phone</option>
-                            <option value="pidgeon">Carrier Pidgeon</option>
+                            <option value="phone">Phone</option>
                         </select>
+                        <div id="contactInput"></div>
                     </div>
                     <div>
                         <label>Which animal are you adopting today?</label>
@@ -83,6 +74,9 @@
         <footer id="footer" class="addMarginLR">&copy; Copyright 2023</footer>
     </div>
     <!-- End Container -->
+
+    <script src="contact.js"></script>
+
 </body>
 
 </html>
