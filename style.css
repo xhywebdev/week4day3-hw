@@ -181,3 +181,18 @@ form div {
 #gallery img:hover{
     cursor: pointer;
 }
+
+#infoBox{
+    background-color: rgba(33, 33, 33, 0.9);
+    color: white;
+    width: 400px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    position: absolute;
+    border-radius: 5%;
+    top: 50%;
+    left: 35%;
+    z-index: 10;
+}
